@@ -19,9 +19,13 @@ const links = [
 
 const Navbar = (props: Props) => {
   return (
-    <nav className="sticky top-0 bg-white z-50 p-4 flex justify-between items-center">
-      <Link href="/" className="block">
-        <h4 className="lg:text-3xl text-xl uppercase  font-mono">Bitpay</h4>
+    <nav className="flex p-4 sticky top-0 z-50 justify-between items-center bg-white">
+      <Link href="/" className="w-[100px]">
+        <img
+          src="https://bitpay.com/_nuxt/img/bitpay-logo-blue.1c0494b.svg"
+          alt="logo"
+          className="w-full h-full"
+        />
       </Link>
       {/* links */}
       <div className="space-x-4 hidden lg:block">

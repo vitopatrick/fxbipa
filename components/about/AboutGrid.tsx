@@ -44,12 +44,13 @@ const AboutGrid = () => {
         </div>
         <div className="rounded-lg shadow-lg p-3 flex items-center col-span-2 gap-6 flex-col lg:flex-row">
           <img
-            src="https://images.mudrex.com/web/etf_campaign/prime_logo.webp"
+            src="https://bitpay.com/_nuxt/img/bitpay-logo-blue.1c0494b.svg"
             alt="image"
+            className="w-[200px]"
           />
           <div className="flex-1">
             <h1 className="p-3 text-purple-800 font-medium text-3xl">
-              Mudrex Prime
+              Bit Pay Prime
             </h1>
             Premium white-glove global OTC services catering to institutions and
             high-net-worth individuals.
