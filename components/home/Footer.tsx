@@ -8,7 +8,7 @@ const Footer = (props: Props) => {
       {/* CopyRight */}
       <div className=" p-4 text-center">
         <p className="font-body text-sm font-light">
-          © 2023 All Rights Reserved | MUDREX
+          © 2023 All Rights Reserved | bitpay
         </p>
       </div>
     </footer>

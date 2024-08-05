@@ -23,17 +23,25 @@ const achivments = [
 
 const Hero = (props: Props) => {
   return (
-    <div className="mt-5 p-4">
-      <div className="text-center ">
-        <h3 className="text-4xl lg:text-6xl font-medium">
+    <div
+      className="mb-5"
+      style={{
+        background:
+          "url('https://images.pexels.com/photos/248933/pexels-photo-248933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
+      }}
+    >
+      <div className="text-center bg-black/30 w-full py-[4rem] px-4">
+        <h3 className="text-4xl lg:text-6xl font-medium text-white">
           Buy, Sell & Hold Crypto
         </h3>
         <div className="space-y-4 my-6">
-          <p className="text-neutral-400">
+          <p className="text-neutral-100">
             Invest in 350+ Coins and crypto baskets with actionable insights at
             your fingertips
           </p>
-          <p>We are Financial Intelligence Unit (FIU) registered.</p>
+          <p className="text-white">
+            We are Financial Intelligence Unit (FIU) registered.
+          </p>
         </div>
         <Link
           href="/get-started"
@@ -44,10 +52,10 @@ const Hero = (props: Props) => {
         <div className="flex items-center justify-center gap-4 flex-col lg:flex-row">
           {achivments.map((c) => (
             <div key={c.id} className="space-y-3">
-              <h4 className="text-2xl lg:text-4xl font-medium text-purple-800">
+              <h4 className="text-2xl lg:text-4xl font-medium text-neutral-100">
                 {c.text}
               </h4>
-              <p className="text-neutral-400">{c.props}</p>
+              <p className="text-neutral-100">{c.props}</p>
             </div>
           ))}
         </div>

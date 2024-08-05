@@ -47,7 +47,7 @@ const WhyUs = () => {
       {/* container */}
       <div className="lg:w-[80%] p-6 mx-auto">
         <h4 className="text-center text-2xl lg:text-4xl font-medium">
-          Why Choose Mudrex?
+          Why Choose bitpay?
         </h4>
         <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4">
           {whyUs.map((us) => (

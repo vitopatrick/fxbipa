@@ -21,11 +21,7 @@ const Navbar = (props: Props) => {
   return (
     <nav className="sticky top-0 bg-white z-50 p-4 flex justify-between items-center">
       <Link href="/" className="block">
-        <img
-          src="https://images.mudrex.com/footer/Header_logo_2x.webp"
-          alt="logo"
-          className="w-[50%]"
-        />
+        <h4 className="lg:text-3xl text-xl uppercase  font-mono">Bitpay</h4>
       </Link>
       {/* links */}
       <div className="space-x-4 hidden lg:block">
