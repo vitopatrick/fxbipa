@@ -28,6 +28,8 @@ const Hero = (props: Props) => {
       style={{
         background:
           "url('https://images.pexels.com/photos/248933/pexels-photo-248933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
       }}
     >
       <div className="text-center bg-black/30 w-full py-[4rem] px-4">
